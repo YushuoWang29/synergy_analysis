@@ -1,0 +1,202 @@
+[
+  {
+    "file": "balance_01.npz",
+    "label": "e9_power_only_static5_flex10_robust",
+    "var_pc1": 0.6748747619580422,
+    "var_pc2": 0.2614007986079168,
+    "var_sum": 0.936275560565959,
+    "s1_sim": 0.9934881204025271,
+    "s2_sim": 0.5906784880744985,
+    "balance_score": 2.7637217226485276
+  },
+  {
+    "file": "balance_02.npz",
+    "label": "e9_precision_only_trialsd_flex10_zscore",
+    "var_pc1": 0.6251003996941761,
+    "var_pc2": 0.2557873428823897,
+    "var_sum": 0.8808877425765658,
+    "s1_sim": 0.9903046468090222,
+    "s2_sim": 0.6690296596323583,
+    "balance_score": 2.7000465060064602
+  },
+  {
+    "file": "balance_03.npz",
+    "label": "e9_precision_only_trialsd_flex10_range",
+    "var_pc1": 0.6721020737980795,
+    "var_pc2": 0.23938255321308435,
+    "var_sum": 0.9114846270111638,
+    "s1_sim": 0.9942836809838866,
+    "s2_sim": 0.6694832428582452,
+    "balance_score": 2.6836489439298816
+  },
+  {
+    "file": "balance_04.npz",
+    "label": "e9_precision_only_trialmean_no_abd_zscore",
+    "var_pc1": 0.7024321362274382,
+    "var_pc2": 0.28387543729833,
+    "var_sum": 0.9863075735257681,
+    "s1_sim": 0.8669797113975819,
+    "s2_sim": 0.36610266710738687,
+    "balance_score": 2.6250747120481543
+  },
+  {
+    "file": "balance_05.npz",
+    "label": "e9_power_precision_static5_flex10_robust",
+    "var_pc1": 0.6783975316583798,
+    "var_pc2": 0.23866197381097656,
+    "var_sum": 0.9170595054693563,
+    "s1_sim": 0.9848000254879411,
+    "s2_sim": 0.545094128333519,
+    "balance_score": 2.557323033815056
+  },
+  {
+    "file": "balance_06.npz",
+    "label": "e9_all_grasp_static5_flex10_robust",
+    "var_pc1": 0.6783975316583798,
+    "var_pc2": 0.23866197381097656,
+    "var_sum": 0.9170595054693563,
+    "s1_sim": 0.9848000254879411,
+    "s2_sim": 0.545094128333519,
+    "balance_score": 2.557323033815056
+  },
+  {
+    "file": "balance_07.npz",
+    "label": "e12_power_precision_pip_only_zscore",
+    "var_pc1": 0.5892560082881974,
+    "var_pc2": 0.21154662627650864,
+    "var_sum": 0.800802634564706,
+    "s1_sim": 0.997713766099212,
+    "s2_sim": 0.8731414131891388,
+    "balance_score": 2.530193579800306
+  },
+  {
+    "file": "balance_08.npz",
+    "label": "e12_all_grasp_pip_only_zscore",
+    "var_pc1": 0.5892560082881974,
+    "var_pc2": 0.21154662627650864,
+    "var_sum": 0.800802634564706,
+    "s1_sim": 0.997713766099212,
+    "s2_sim": 0.8731414131891388,
+    "balance_score": 2.530193579800306
+  },
+  {
+    "file": "balance_09.npz",
+    "label": "e9_precision_only_trialmean_no_abd_range",
+    "var_pc1": 0.7205516996027023,
+    "var_pc2": 0.2662990412393655,
+    "var_sum": 0.9868507408420677,
+    "s1_sim": 0.8796556960457574,
+    "s2_sim": 0.3029924839988443,
+    "balance_score": 2.4878448679255647
+  },
+  {
+    "file": "balance_10.npz",
+    "label": "e12_power_precision_pip_only_none",
+    "var_pc1": 0.610887835510897,
+    "var_pc2": 0.19542090056605305,
+    "var_sum": 0.8063087360769501,
+    "s1_sim": 0.9985607181040849,
+    "s2_sim": 0.8968905634537385,
+    "balance_score": 2.4851732565419886
+  },
+  {
+    "file": "balance_11.npz",
+    "label": "e12_all_grasp_pip_only_none",
+    "var_pc1": 0.610887835510897,
+    "var_pc2": 0.19542090056605305,
+    "var_sum": 0.8063087360769501,
+    "s1_sim": 0.9985607181040849,
+    "s2_sim": 0.8968905634537385,
+    "balance_score": 2.4851732565419886
+  },
+  {
+    "file": "balance_12.npz",
+    "label": "e9_precision_only_static5_no_abd_robust",
+    "var_pc1": 0.6920241983760347,
+    "var_pc2": 0.25736574822061337,
+    "var_sum": 0.949389946596648,
+    "s1_sim": 0.8601141964128522,
+    "s2_sim": 0.4329758076272807,
+    "balance_score": 2.4786986383364957
+  },
+  {
+    "file": "balance_13.npz",
+    "label": "e9_precision_only_trialmean_no_abd_none",
+    "var_pc1": 0.7513956407645511,
+    "var_pc2": 0.24357436672204558,
+    "var_sum": 0.9949700074865967,
+    "s1_sim": 0.8468737191560445,
+    "s2_sim": 0.4043098076340299,
+    "balance_score": 2.4589953753734957
+  },
+  {
+    "file": "balance_14.npz",
+    "label": "e2_all_tasks_trialsd_flex10_none_subjavg",
+    "var_pc1": 0.5707889016207875,
+    "var_pc2": 0.2897044659170869,
+    "var_sum": 0.8604933675378744,
+    "s1_sim": 0.9589063435738782,
+    "s2_sim": 0.31266059379079414,
+    "balance_score": 2.4410760020258557
+  },
+  {
+    "file": "balance_15.npz",
+    "label": "e9_precision_only_static5_no_abd_range",
+    "var_pc1": 0.7224775498411798,
+    "var_pc2": 0.23175802496700035,
+    "var_sum": 0.9542355748081802,
+    "s1_sim": 0.9351502274770389,
+    "s2_sim": 0.4373297409345809,
+    "balance_score": 2.439741242862982
+  },
+  {
+    "file": "balance_16.npz",
+    "label": "e9_precision_only_static5_no_abd_zscore",
+    "var_pc1": 0.7277260862702368,
+    "var_pc2": 0.22709232866058365,
+    "var_sum": 0.9548184149308205,
+    "s1_sim": 0.9263260104623593,
+    "s2_sim": 0.46624878339496056,
+    "balance_score": 2.437673267021879
+  },
+  {
+    "file": "balance_17.npz",
+    "label": "e9_precision_only_trialsd_no_abd_range",
+    "var_pc1": 0.6817615537587756,
+    "var_pc2": 0.2163240978121893,
+    "var_sum": 0.8980856515709649,
+    "s1_sim": 0.9885326911991071,
+    "s2_sim": 0.547533946345277,
+    "balance_score": 2.4138584297472603
+  },
+  {
+    "file": "balance_18.npz",
+    "label": "e9_power_only_static5_no_abd_robust",
+    "var_pc1": 0.6907547039343598,
+    "var_pc2": 0.23651024323266326,
+    "var_sum": 0.927264947167023,
+    "s1_sim": 0.7493480435846925,
+    "s2_sim": 0.6255565613832113,
+    "balance_score": 2.411985715465266
+  },
+  {
+    "file": "balance_19.npz",
+    "label": "e2_power_only_trialsd_flex10_none_subjavg",
+    "var_pc1": 0.5552851732148135,
+    "var_pc2": 0.26756513648908664,
+    "var_sum": 0.8228503097039002,
+    "s1_sim": 0.9453515955885902,
+    "s2_sim": 0.4457161779594284,
+    "balance_score": 2.374594075401252
+  },
+  {
+    "file": "balance_20.npz",
+    "label": "e4_ninapro_S31_E1_none",
+    "var_pc1": 0.4941689861500993,
+    "var_pc2": 0.38843770715178016,
+    "var_sum": 0.8826066933018795,
+    "s1_sim": 0.6521424304261151,
+    "s2_sim": 0.013258317648733281,
+    "balance_score": 2.372802670437508
+  }
+]
