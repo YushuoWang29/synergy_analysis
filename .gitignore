@@ -1,44 +1,54 @@
-# ============================================
-# Raw Data - excluded from version control
-# ============================================
-
-# MyoKi raw data (original hand joint angle data)
-MyoKi Data/
-
-# Ninapro raw data (EMG and hand kinematics data)
-Ninapro Data/
-
-# MyoKi Dataset raw data
-MyoKi Dataset/raw/
-
-# ============================================
-# Python
-# ============================================
+# Python and local environments
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
 *.egg-info/
-dist/
 build/
-.eggs/
-*.egg
+dist/
 
-# ============================================
-# IDE
-# ============================================
+# Machine-specific settings and credentials
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# ============================================
-# OS
-# ============================================
+.env
+.env.*
+!.env.example
 .DS_Store
 Thumbs.db
 
-# ============================================
-# Jupyter Notebook
-# ============================================
-.ipynb_checkpoints/
+# Logs and TeX intermediate files; final PDFs remain versioned
+*.log
+MUJOCO_LOG.TXT
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.nav
+*.snm
+*.vrb
+~$*
+
+# Raw and preprocessed databases stay on the local machine.
+/MyoKi Data/
+/Ninapro Data/
+/MyoKi Dataset/raw/
+/MyoKi Dataset/preprocessed/
+/MyoKi Dataset/*.mat
+/MyoKi Dataset/**/*.mat
+/MyoKi Dataset/*.zip
+/MyoKi Dataset/*.7z
+/MyoKi Dataset/*.rar
+/MyoKi Dataset/*.h5
+/MyoKi Dataset/*.hdf5
+
+# Extracted reference text is reproducible; keep original references instead.
+/course_project/outputs/data/*_extracted.txt
+/course_project/outputs/data/santello_postural_synergies.txt
+/course_project/outputs/data/west_synergy_complexity.txt

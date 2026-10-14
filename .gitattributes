@@ -1,0 +1,15 @@
+# Treat research artifacts as binary: no line-ending conversion or text diff.
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.npz binary
+*.npy binary
+*.mat binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.stl binary
+*.zip binary

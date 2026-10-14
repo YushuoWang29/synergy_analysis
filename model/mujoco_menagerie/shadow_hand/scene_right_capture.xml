@@ -1,0 +1,21 @@
+<mujoco model="right_shadow_hand capture scene">
+  <include file="right_hand_capture.xml"/>
+
+  <statistic extent="0.24" center="0.02 0 0.105"/>
+
+  <visual>
+    <rgba haze="1 1 1 1"/>
+    <quality shadowsize="4096"/>
+    <global azimuth="220" elevation="-30"/>
+    <map fogstart="3" fogend="5"/>
+  </visual>
+
+  <asset>
+    <texture type="skybox" builtin="flat" rgb1="1 1 1" rgb2="1 1 1" width="512" height="512"/>
+  </asset>
+
+  <worldbody>
+    <light pos="0 0 1.2" diffuse="0.75 0.75 0.75"/>
+    <light pos="0.25 -0.2 1.6" dir="0 0 -1" directional="true" diffuse="0.75 0.75 0.75"/>
+  </worldbody>
+</mujoco>
